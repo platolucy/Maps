@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Mapbox -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+
+  <script src="./script.js" defer></script>
+</head>
+<body>
+    <div id='map'></div>
+
+    <div class="map-overlay top"> <!--For water change-->
+        <div class="map-overlay-inner">
+            <fieldset>
+                <select id="layer" name="layer">
+                    <option value="water">Water</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>Turn it red!</label>
+                <div id="swatches"></div>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+Here are some of the sources I used for building this sample:
+
+Get geojson data (including coordinates): 
+    http://geojson.io/
+        Acadian
+            [-92.03662276268005, 30.20527090230507]
+        Eraste
+            [-92.04824209213255, 30.22809169259424]
+Icons available inside mapbox: 
+    https://github.com/mapbox/mapbox-gl-styles#styles
+        lodging-11 lodging-15
+        marker-11 marker-15
+        music-11 music-15
+        castle-11 castle-15
+        car-11 car-15
+Map styles available: 
+    https://www.mapbox.com/maps/
+        Basic (basic-v8)
+        Simple and flexible starting template.
+Mapbox API guides
+    https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/
+    https://docs.mapbox.com/mapbox-gl-js/example/center-on-symbol/
+    https://docs.mapbox.com/mapbox-gl-js/example/change-building-color-based-on-zoom-level/
+    https://docs.mapbox.com/mapbox-gl-js/example/style-ocean-depth-data/
